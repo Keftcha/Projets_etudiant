@@ -1,0 +1,25 @@
+<!DOCTYPEhtml>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css"/>
+		<meta http-equiv="Content-Type" content ="text/html ; charset=utf-8"/>
+		<title>Règle du Solitaire</title>
+	</head>
+	<body>
+		<form action="/req_solitaire_retour" method="GET">
+			<input type ="hidden" name="pseudo" value ="{pseudo}">
+			<button class="button"name="action"value="Quitter"><span>Retour à l'accueil</span></button><br>
+		</form>
+		<center>	
+			<h1> Le jeu du Solitaire </h1>
+			<img src="solitaire.png"height="250">
+			<h2>Il y a un plateau sur lequel on a des pions, <br>
+			il faut sauté par dessus un pion et attérrir sur une case libre, <br>
+			pour manger un pion. <br>Pour gagner la partie il faut qu'il ne reste un seul pion .
+			<form action="/req_solitaire_plateau" method="GET">
+				<input type ="hidden" name="pseudo" value ="{pseudo}">
+				<button class="button3"name="action"value="Jouer"><span>Jouer</span></button><br>
+			</form>
+		</center>
+	</body>
+</html>

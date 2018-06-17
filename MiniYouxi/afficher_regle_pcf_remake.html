@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<link rel ="stylesheet" href="style.css"/>
+	<title>Regle PCF Remake</title>
+</head>
+<body>
+    <form action="/req_quitter_regle_bataille" method="GET">
+	    <input type="hidden" name="pseudo" value="{pseudo}">
+		<button class="button" name="bouton_quitter" value="retour_a_l'accueil"><span>Retour à l'accueil</span></button>
+	</form>
+
+	<br>
+	<br>
+
+	<center><h1>Remake du PCF</h1>
+
+	<br>
+
+	    <img src="main.jpeg">
+
+	<br>
+
+    <h3>Ce jeu se déroule en plusieurs étapes.<br>
+	Chaque joueur à sa main dans son dos. Ils choisissent secrètement une valeur
+	entre 0 et 5 qu'ils représentent avec leurs nombres de doigts levé (la main
+	est toujours dans leurs dos).<br><br>
+	Ensuite, les joueurs doivent reflechir à une estimation du total des doigts
+	levés (addition des mains des deux joueurs).<br><br>
+	Pour finir, ils montrent la main qu'ils ont dans leurs dos et donnent
+	simultanément leurs estimations.<br>
+	Le joueur ayant l'estimation la plus proche du total des doigts levé
+	remporte la manche.<br>
+	<br>
+	Ici votre main possède six doigts.<br>
+	Vous selectionez le nombre de doigts levé en cliquant sur une main et une
+	estimation en cliquant sur un des boutons numéroté de 0 à 12.<br>
+	Après, les résultats de la manche vous seront révélé.</h3>
+
+	<br>
+	<br>
+
+	<form action="/req_commencer_pcf_remake" method="GET">
+	    <input type="hidden" name="pseudo" value="{pseudo}">
+		<button class="button3" name="bouton_jouer" value="Jouer"><span>Jouer</span></button>
+	</form>
+	</center>
+</body>
+</html>

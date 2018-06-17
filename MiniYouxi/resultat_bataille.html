@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	   <link rel="stylesheet" href="style.css"/>
+		<meta charset="UTF-8"/>
+		<title>Resultat Bataille</title>
+	</head>
+	<body>
+		<form action="req_quitter_bataille">
+		    <input type="hidden" name="pseudo" value="{pseudo}">
+			<button class="button" type="submit" name="bouton"value="accueil"><span>Accueil</span></button>
+		</form>
+
+    <br>
+    <br>
+
+	<center>
+	    
+		<h1>Les résultats</h1>
+
+		<img width="500" src="bataille.jpg">
+
+		<br>
+		<br>
+
+		{winer}
+
+		<br>
+		<br>
+
+	    nombre carte(s) que vous avez : {joueur}<br>
+	    nombre carte(s) de l'ordinateur : {ordi}<br>
+		<br>
+
+        <form action="req_commencer_bataille">
+		    <input type="hidden" name="pseudo" value="{pseudo}">
+		<button class="button3" type="submit" name="bouton" value="rejouer"><span>Rejouer</span></button>
+		</form>
+
+
+	</center>
+	</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css"/>
+   <meta charset="UTF-8"/>
+	<title>Jeu Morpion</title>
+</head>
+<body>
+
+<form action="req_abandonner_morpion" method="GET">
+    <input type="hidden" name="pseudo" value="{pseudo}">
+    <button class="button1" type="submit" name="bouton" value="abandonner"><span>Abandonner</span></button>
+</form>
+
+<br>
+<br>
+<br>
+
+<center><form action="req_joueur_pose_pion_morpion" method="GET">
+
+    <input type="hidden" name="pseudo" value="{pseudo}">
+    <input type="hidden" name="gagnant" value="{winer}">
+
+	<button name="place00" value="{val00}"><img height="175"src="{case00}"></button>
+	<button name="place10" value="{val10}"><img height="175"src="{case10}"></button>
+	<button name="place20" value="{val20}"><img height="175"src="{case20}"></button>
+	<br>
+	<button name="place01" value="{val01}"><img height="175"src="{case01}"></button>
+	<button name="place11" value="{val11}"><img height="175"src="{case11}"></button>
+	<button name="place21" value="{val21}"><img height="175"src="{case21}"></button>
+	<br>
+	<button name="place02" value="{val02}"><img height="175"src="{case02}"></button>
+	<button name="place12" value="{val12}"><img height="175"src="{case12}"></button>
+	<button name="place22" value="{val22}"><img height="174"src="{case22}"></button>
+
+</form></center>
+
+</body>
+</html>
