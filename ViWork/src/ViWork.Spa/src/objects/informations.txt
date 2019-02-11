@@ -1,0 +1,4 @@
+To transpile the tests run: "tsc -p .\tsconfig.test.json"
+and to run tests: "npm test"
+
+To transpile all objects run: "tsc -p .\tsconfig.json"

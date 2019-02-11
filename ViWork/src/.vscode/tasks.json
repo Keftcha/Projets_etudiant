@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/ViWork.DAL.Test/ViWork.DAL.Test.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}

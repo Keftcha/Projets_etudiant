@@ -1,0 +1,78 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Scripts\20181022150900.0000.Create-schema-viw.sql" />
+    <EmbeddedResource Include="Scripts\20181022150900.0001.Install-tUser.sql" />
+    <EmbeddedResource Include="Scripts\20181022150900.0002.Install-tGroup.sql" />
+    <EmbeddedResource Include="Scripts\20181022150900.0003.Install-tSchema.sql" />
+    <EmbeddedResource Include="Scripts\20181022150900.0004.Install-tOwnGroup.sql" />
+    <EmbeddedResource Include="Scripts\20181022150900.0005.Install-tLnkShema.sql" />
+    <EmbeddedResource Include="Scripts\20181022150900.0006.Install-tPasswordUser.sql" />
+    <EmbeddedResource Include="Scripts\20181022150900.0007.Install-tGithubUser.sql" />
+    <EmbeddedResource Include="Scripts\20181022150900.0008.Install-vUser.sql" />
+    <EmbeddedResource Include="Scripts\20181022150900.0009.Install-vGroup.sql" />
+    <EmbeddedResource Include="Scripts\20181022150900.0010.Install-vSchema.sql" />
+    <EmbeddedResource Include="Scripts\20181022150900.0011.Install-sPasswordUserCreate.sql" />
+    <EmbeddedResource Include="Scripts\20181022150900.0012.Install-sGithubUserCreateOrUpdate.sql" />
+    <EmbeddedResource Include="Scripts\20181022150900.0013.Install-sUserDelete.sql" />
+    <EmbeddedResource Include="Scripts\20181022150900.0014.Install-sUserUpdate.sql" />
+    <EmbeddedResource Include="Scripts\20181022150900.0015.Install-sPasswordUserUpdate.sql" />
+    <EmbeddedResource Include="Scripts\20181022150900.0016.Install-sGroupAdd.sql" />
+    <EmbeddedResource Include="Scripts\20181022150900.0017.Install-tMemberList.sql" />
+    <EmbeddedResource Include="Scripts\20181022150900.0018.Install-sUserGroupAdd.sql" />
+    <EmbeddedResource Include="Scripts\20181022150900.0019.Install-sGroupNameUpdate.sql" />
+    <EmbeddedResource Include="Scripts\20181022150900.0020.Install-sGroupDelete.sql" />
+    <EmbeddedResource Include="Scripts\20181022150900.0021.Install-sGroupUserDelete.sql" />
+    <EmbeddedResource Include="Scripts\20181022150900.0022.Install-sSchemaAdd.sql" />
+    <EmbeddedResource Include="Scripts\20181022150900.0023.Install-sSchemaDelete.sql" />
+    <EmbeddedResource Include="Scripts\20181022150900.0023.Install-vAuthenticationProvider.sql" />
+    <EmbeddedResource Include="Scripts\20181128151500.0024.Alter-sAddGroup.sql" />
+    <EmbeddedResource Include="Scripts\20181128151500.0025.Alter-sAddGroup.sql" />
+    <EmbeddedResource Include="Scripts\20181202161100.0026.Alter-sGroupDelete.sql" />
+    <EmbeddedResource Include="Scripts\20181203161100.0027.Alter-sGroupDelete.sql" />
+    <EmbeddedResource Include="Scripts\20181203167800.0028.Alter-sSchemaAdd.sql" />
+    <EmbeddedResource Include="Scripts\20181203167800.0029.Alter-sSchemaAdd.sql" />
+    <EmbeddedResource Include="Scripts\20181203167800.0030.Alter-sSchemaAdd.sql" />
+    <EmbeddedResource Include="Scripts\20181204134400.0031.Alter-sDeleteSchema.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="appsettings.json" />
+    <None Remove="Scripts\20181022150900.0016.Install-sGroupAdd.sql" />
+    <None Remove="Scripts\20181022150900.0017.Install-tMemberList.sql" />
+    <None Remove="Scripts\20181022150900.0018.Install-sUserGroupAdd.sql" />
+    <None Remove="Scripts\20181022150900.0019.Install-sGroupNameUpdate.sql" />
+    <None Remove="Scripts\20181022150900.0020.Install-sGroupDelete.sql" />
+    <None Remove="Scripts\20181022150900.0021.Install-sGroupUserDelete.sql" />
+    <None Remove="Scripts\20181022150900.0022.Install-sSchemaAdd.sql" />
+    <None Remove="Scripts\20181022150900.0023.Install-sSchemaDelete.sql" />
+    <None Remove="Scripts\20181022150900.0023.Install-vAuthenticationProvider.sql" />
+    <None Remove="Scripts\20181128151500.0024.Alter-sAddGroup.sql" />
+    <None Remove="Scripts\20181128151500.0025.Alter-sAddGroup.sql" />
+    <None Remove="Scripts\20181202161100.0026.Alter-sGroupDelete.sql" />
+    <None Remove="Scripts\20181203161100.0027.Alter-sGroupDelete.sql" />
+    <None Remove="Scripts\20181203167800.0028.Alter-sSchemaAdd.sql" />
+    <None Remove="Scripts\20181203167800.0029.Alter-sSchemaAdd.sql" />
+    <None Remove="Scripts\20181203167800.0030.Alter-sSchemaAdd.sql" />
+    <None Remove="Scripts\20181204134400.0031.Alter-sDeleteSchema.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="dbup-sqlserver" Version="4.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.1.1" />
+  </ItemGroup>
+
+</Project>

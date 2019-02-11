@@ -1,0 +1,1 @@
+To transpile all pixi_objects run: "tsc -p .\tsconfig.json"
