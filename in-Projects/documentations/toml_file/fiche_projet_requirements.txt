@@ -1,0 +1,13 @@
+﻿Les fiches de présentation de vos projets PI et PFH doivent être disposible en public sur au moins l'une des plateformes suivantes: Google Drive.
+Leur niveau d'accessibilité doit être public. Cela signifie que tout utilisateur d'internet peut y avoir accès sans inscription à la plateforme avec le lien que vous nous donnerez. 
+Il en est de même pour toutes les ressources que vous nous joindrez sous forme de liens tels que votre logo et votre image de fond en PFH. Le lien doit mener directement à votre image, non à un site sur lequel votre image est.
+
+Ces fiches doivent être nommées ficheprojet.toml et placé à la racine de votre répertoire en ligne.
+Pour plus d'informations sur les fichiers en toml consultez ce lien: https://github.com/toml-lang/toml
+Les ressources jointes, hors images, doivent être au format PDF.
+
+Les fichiers d'exemples se trouvent dans les répertoires ./projet_PFH et ./projet_PI. Ces derniers doivent contenir toutes les tables et clés présentes dans les templates. Les tables ou clés en plus seront ignorés.
+Il y a une exception, c'est la table othersDocuments qui est facultative. Dans le cas où vous n'avez pas d'autres ressources en plus à joindre, veillez à effacer ces lignes.
+
+Pour les valeurs possibles à chaque clé referez-vous aux fichiers d'exemple.
+Les fichiers d'exemples se trouvent dans les répertoires ./projet_PFH et ./projet_PI

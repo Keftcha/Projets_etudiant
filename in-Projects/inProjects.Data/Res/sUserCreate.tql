@@ -1,0 +1,14 @@
+-- SetupConfig: {}
+
+CREATE TRANSFORMER ON CK.sUserCreate
+AS
+BEGIN
+    ADD PARAMETER @FirstName NVARCHAR(255) = '' BEFORE @UserIdResult;
+    ADD PARAMETER @LastName NVARCHAR(255) = '' BEFORE @UserIdResult;
+
+    IN SINGLE PART {insert into CK.tUser}
+    BEGIN
+     ADD COLUMN FirstName = @FirstName;
+     ADD COLUMN LastName = @LastName;
+    END
+  END

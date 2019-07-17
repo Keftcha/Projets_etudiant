@@ -1,0 +1,40 @@
+[name]
+# Une chaine de caractere.
+project_name = "mon super projet"
+
+[semester]
+# Une liste d'entier positif représentant les différents semestres des membres de l'équipe. Veillez ne pas dupliquer les numéros.
+semester = [2, 3]
+# La chaine de caractere "SR", "IL", "IL - SR" pour votre filière Systemes et Réseaux ou Ingénieurie Logiciel "None" si vous êtes en semestre 1 ou 2.
+sector = "SR"
+
+[technologies]
+# Une liste de chaine de caracteres des technologies que vous utilisez.
+technologies = ["C#", "Kotlin", "Javascript"]
+
+[logo]
+# L'URL publique de votre logo.
+url = "https://mon_super_logo.png"
+
+[slogan]
+# Une chaine de caractere.
+slogan = "the super project"
+
+[pitch]
+# Une chaine de caractere.
+pitch = "Vous avez des problemes ? Notre super project est là pour vous !"
+
+[team]
+# L'e-mail du chef de projet, "None" si vous n'en avez pas.
+leader = "Chef de Projet"
+# La liste d'e-mail des membres de votre projet. Ne remettez pas le chef de projet s'il est précisé. S'il n'y a pas de membres, mettez une liste vide.
+members = ["Team member one", "Team member two"]
+
+[git]
+# L'URL de votre repos distant git de votre projet.
+url = "https://github.com/pseudo/projet"
+
+# Cette table est optionnelle, si vous n'avez pas d'autres ressources, supprimez ces lignes
+[othersDocuments]
+# Des liens directs vers vos autres ressources
+urls = ["https://ma_ressource", "http://une_autre_ressource", "https://une_dernière_ressource"]

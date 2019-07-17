@@ -1,0 +1,67 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="appsettings.Development.json" />
+    <None Remove="appsettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="appsettings.Development.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CK.AspNet" Version="3.0.3--0014-develop" />
+    <PackageReference Include="CK.AspNet.Auth" Version="5.0.0" />
+    <PackageReference Include="CK.DB.AspNet.Auth" Version="5.0.0" />
+    <PackageReference Include="EPPlus" Version="4.5.3.1" />    
+    <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />    
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="2.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.IIS" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OAuth" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.0.4" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="3.0.0-preview.18572.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.2.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="5.3.0" />
+    <PackageReference Include="Dapper" Version="1.60.6" />
+    <PackageReference Include="CsvHelper" Version="12.1.2" />
+    <PackageReference Include="TinyCsvParser" Version="2.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\inProjects.Data\inProjects.Data.csproj" />
+    <ProjectReference Include="..\inProjects.EmailJury\inProjects.EmailJury.csproj" />
+    <ProjectReference Include="..\inProjects.TomlHelpers\inProjects.TomlHelpers.csproj" />
+    <ProjectReference Include="..\inProjects.ViewModels\inProjects.ViewModels.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="classRooms.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="eventsSelect.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="WebAppLogs\Textual\" />
+  </ItemGroup>
+  
+</Project>

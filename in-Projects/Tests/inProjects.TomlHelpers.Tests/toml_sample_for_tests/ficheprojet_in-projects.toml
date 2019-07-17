@@ -1,0 +1,25 @@
+[name]
+project_name = "In'Projects"
+
+[semester]
+semester = [5]
+sector = "IL"
+
+[technologies]
+technologies = ["C#", ".Net Core", "TypeScript", "Vue.Js", "SQL", "Cordova", "CK.DB"]
+
+[logo]
+url = "https://drive.google.com/uc?id=18VrWB3KU9wOiPGEvBO8SuuU5C6nEcpef"
+
+[slogan]
+slogan = "La gestion, notre mission."
+
+[pitch]
+pitch = "In’tech regroupe des projets informatiques et des projets de formation humaine. Nous avons pour idée de les recenser afin que tout le monde puisse les retrouver facilement. De plus pour faciliter l’organisation des forum PI nous mettons en place une application sur laquelle les jurys pourront directement noter les élèves. Mais ce n’est pas tout ! N’importe qui pourra noter les projets et choisir l’élu du public."
+
+[team]
+leader = "agopian@intechinfo.fr"
+members = ["acheng@intechinfo.fr", "chiche@intechinfo.fr", "delpierre@intechinfo.fr", "dewilde@intechinfo.fr"]
+
+[git]
+url = "https://github.com/albandewilde/in-Projects/"

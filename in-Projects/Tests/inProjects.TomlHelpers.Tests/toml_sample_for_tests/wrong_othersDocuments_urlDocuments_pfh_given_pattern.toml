@@ -1,0 +1,34 @@
+[name]
+# une chaine de caractere.
+project_name = "mon super projet"
+
+[semester]
+# un entier positif représentant votre semestre.
+semester = [2]
+# La chaine de caractere "SR" ou "IL" pour votre filière Systemes et Réseaux ou Ingénieurie Logiciel "None" si vous êtes en semestre 1 ou 2.
+sector = "SR"
+
+[background]
+# L'url publique de votre image de fond.
+image = "https://mon_image_de_background.png"
+
+[logo]
+# L'url publique de votre logo.
+url = "https://mon_super_logo.png"
+
+[slogan]
+# Une chaine de caractere.
+slogan = "the super project"
+
+[pitch]
+# Une chaine de caractere.
+pitch = "Vous avez des problemes ? Notre super project est là pour vous !"
+
+[team]
+# Le chef de projet, "None" si vous n'en avez pas.
+leader = "Chef@de.Projet"
+# La liste des membres de votre projet. Ne remettez pas le chef de projet si il est précisé.
+members = ["Team@member.one", "Team@member.two"]
+
+[othersDocuments]
+urls = ["https://theuselessweb.site/whatdoineed/", "", "http://endless.horse/"]

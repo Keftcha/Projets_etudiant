@@ -1,0 +1,48 @@
+# This is a TOML document.
+# It juste miss temporal type to get all types in this file
+
+title = "TOML Example"
+
+[owner]
+name = "Tom Preston-Werner"
+
+[database]
+server = "192.168.1.1"
+ports = [ 8001, 8001, 8002 ]
+connection_max = 5000
+enabled = true
+
+[servers]
+
+  # Indentation (tabs and/or spaces) is allowed but not required
+  [servers.alpha]
+  ip = "10.0.0.1"
+  dc = "eqdc10"
+
+  [servers.beta]
+  ip = "10.0.0.2"
+  dc = "eqdc10"
+
+[clients]
+data = [ ["gamma", "delta"], [1, 2] ]
+
+# Line breaks are OK when inside arrays
+hosts = [
+  "alpha",
+  "omega"
+]
+
+[some_other_types]
+this_must_be_a_float = 3.1415926535
+
+[[array_table]]
+name = "The first"
+very = "original"
+key = "value"
+
+[[array_table]]
+# Nothing here
+
+[[array_table]]
+good_os = "Linux"
+bad_os = "Windows"

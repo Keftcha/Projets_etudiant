@@ -1,0 +1,28 @@
+[name]
+project_name = "In'Projects"
+
+[semester]
+semester = [5]
+sector = "IL"
+
+[technologies]
+technologies = ["C#", ".Net Core", "TypeScript", "Vue.Js", "SQL", "Cordova", "CK.DB"]
+
+[logo]
+url = "https://lh4.googleusercontent.com/mp4wU30Yp6TlmQyChnWYC2gIJxIjzkEirXkHfrdzcBuYb814lElPdoEDkXY_mcWb_aUsqIvsyiAsOLtyz4S2=w1920-h985-rw"
+
+[slogan]
+slogan = "La gestion, notre mission."
+
+[pitch]
+pitch = "In’tech regroupe des projets informatiques et des projets de formation humaine. Nous avons pour idée de les recenser afin que tout le monde puisse les retrouver facilement. De plus pour faciliter l’organisation des forum PI nous mettons en place une application sur laquelle les jurys pourront directement noter les élèves. Mais ce n’est pas tout ! N’importe qui pourra noter les projets et choisir l’élu du public."
+
+[team]
+leader = "agopian@intechinfo.fr"
+members = ["acheng@intechinfo.fr", "chiche@intechinfo.fr", "delpierre@intechinfo.fr", "dewilde@intechinfo.fr"]
+
+[othersDocuments]
+urls = ["https://theuselessweb.site/salmonofcapistrano/", "https://theuselessweb.site/screaminggoatpiano/", "https://theuselessweb.site/infinitefrogs/"]
+
+[git]
+url = "https://git-scm.com/"

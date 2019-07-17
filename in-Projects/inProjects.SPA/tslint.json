@@ -1,0 +1,48 @@
+{
+  "defaultSeverity": "warning",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**",
+      "*.json"
+    ]
+  },
+  "rules": {
+    "arrow-parens": false,
+    "class-name": true,
+    "curly": false,
+    "encoding": true,
+    "eofline": false,
+    "increment-decrement": true,
+    "indent": [true, "spaces", 4],
+    "member-access": false,
+    "max-classes-per-file": false,
+    "max-line-length": false,
+
+
+    "no-consecutive-blank-lines": false,
+    "no-console": false,
+    "no-duplicate-imports": [true, {"allow-namespace-imports": true}],
+    "no-empty": true,
+    "no-unnecessary-qualifier": true,
+    "no-use-before-declare": true,
+    "no-shadowed-variable": false,
+    "no-var-keyword": true,
+    "no-var-requires": false,
+
+    "object-literal-shorthand": false,
+    "object-literal-sort-keys": false,
+    "one-variable-per-declaration": [true, "ignore-for-loop"],
+    "ordered-imports": false,
+    
+    "prefer-const": true,
+    "quotemark": [true, "double"],
+    "semicolon": [true, "never"],
+    "space-before-function-parent": false,
+    "trailing-comma": false,
+    "triple-equals": false,
+    "unnecessary-else": true
+  }
+}

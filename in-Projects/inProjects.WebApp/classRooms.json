@@ -1,0 +1,74 @@
+{
+    "Classrooms": [
+        {
+            "Name": "E01",
+            "OriginX": 36,
+            "OriginY": 0,
+            "EndPositionX": 47,
+            "EndPositionY": 7
+        },
+        {
+            "Name": "E02",
+            "OriginX": 36,
+            "OriginY": 8,
+            "EndPositionX": 47,
+            "EndPositionY": 13
+        },
+        {
+            "Name": "E03",
+            "OriginX": 26,
+            "OriginY": 1,
+            "EndPositionX": 35,
+            "EndPositionY": 7
+        },
+        {
+            "Name": "E05",
+            "OriginX": 18,
+            "OriginY": 8,
+            "EndPositionX": 25,
+            "EndPositionY": 11
+        },
+        {
+            "Name": "E06",
+            "OriginX": 15,
+            "OriginY": 1,
+            "EndPositionX": 25,
+            "EndPositionY": 7
+        },
+        {
+            "Name": "E07",
+            "OriginX": 16,
+            "OriginY": 14,
+            "EndPositionX": 25,
+            "EndPositionY": 22
+        },
+        {
+            "Name": "E08",
+            "OriginX": 2,
+            "OriginY": 0,
+            "EndPositionX": 12,
+            "EndPositionY": 7
+        },
+        {
+            "Name": "E09",
+            "OriginX": 2,
+            "OriginY": 8,
+            "EndPositionX": 8,
+            "EndPositionY": 17
+        },
+        {
+            "Name": "I16",
+            "OriginX": 27,
+            "OriginY": 24,
+            "EndPositionX": 35,
+            "EndPositionY": 29
+        },
+        {
+            "Name": "E0S",
+            "OriginX": 40,
+            "OriginY": 14,
+            "EndPositionX": 45,
+            "EndPositionY": 16
+        }
+    ]
+}

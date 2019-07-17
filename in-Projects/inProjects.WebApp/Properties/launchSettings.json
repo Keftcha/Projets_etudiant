@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "WebApp": {
+      "commandName": "Project",
+      "environmentVariables": {
+      }
+    }
+  }
+}

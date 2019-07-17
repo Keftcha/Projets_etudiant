@@ -1,0 +1,9 @@
+﻿-- SetupConfig: {"AddRequires": ["Model.CK.CustomUserTable"]}
+
+create transformer on CK.vUser
+as
+begin
+    add column
+        FirstName = u.FirstName,
+        LastName = u.LastName
+end

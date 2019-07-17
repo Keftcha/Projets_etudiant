@@ -1,0 +1,76 @@
+@import "./config";
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+
+.collapseBtn {
+    margin-top: 10px;   
+}
+
+body {
+    margin: 0px;
+    background-color: white;
+}
+
+.button{
+    border: 2.5px solid #333333;
+    cursor: pointer;
+    background:linear-gradient(135deg, rgba(251,251,254,1) 0%, rgba(252,252,252,1) 18%, rgba(170,205,249,1) 36%, rgba(251,251,255,1) 53%, rgba(219,230,245,1) 76%, rgba(170,205,249,1) 85%);
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    transition: all 150ms ease-out;
+    transform: translateY(0px);
+    text-decoration: none;
+    &:hover, &:focus {
+      outline: 0;
+      transform: translateY(-5px);
+      transition: all 100ms ease-in;
+      box-shadow: 0 5px 10px rgba(#333333,0.4);
+    }
+    &:active {
+      transform: translateY(-3px);
+    }
+  }
+
+form {
+max-width: 300px;
+margin: 10px auto;
+padding: 10px 20px;
+background: linear-gradient(135deg, rgba(251,251,254,1) 0%, rgba(238,238,251,1) 43%, rgba(225,225,228,1) 72%, rgba(0,0,0,1) 100%);}
+
+select {
+padding: 6px;
+height: 32px;
+border-radius: 2px;
+}
+fieldset {
+margin-bottom: 30px;
+border: none;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 30px;
+}
+
+
+.first-element{
+    margin-top: 1%;
+}

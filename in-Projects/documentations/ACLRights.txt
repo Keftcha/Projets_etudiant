@@ -1,0 +1,7 @@
+0		-	blind
+8		-	user
+16		-	student
+32		-	jury
+64		-	teacher
+112		-	administration
+127		-	super admin
